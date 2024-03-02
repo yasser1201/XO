@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XO GAME</title>
+    <link rel="stylesheet" href="XO.css">
+</head>
+<body>
+    <div id="head-div">
+        <h1 id="head">XO GAME</h1>
+    </div>
+    <div id="parent">
+        <span id="block1" onclick="game(this.id)"></span>
+            <span id="block2" onclick="game(this.id)"></span>
+                <span id="block3" onclick="game(this.id)"></span>
+
+                <span id="block4" onclick="game(this.id)"></span>
+            <span id="block5" onclick="game(this.id)"></span>
+        <span id="block6" onclick="game(this.id)"></span>
+
+        <span id="block7" onclick="game(this.id)"></span>
+            <span id="block8" onclick="game(this.id)"></span>
+                <span id="block9" onclick="game(this.id)"></span>
+    </div>
+    <div id="win">
+        <div id="winP">you win</div>
+        <button id="reset" onclick="reload()">restart again</button>
+    </div>
+    
+
+    <script src="XO.js"></script>
+    
+</body>
+</html>
